@@ -1,0 +1,48 @@
+.register-body {
+    background: url('../images/landing-page-background.jpg') rgba(0, 0, 0, 0.60);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100%;
+    min-height: 100vh;
+    padding:50px;
+    overflow: auto;
+
+    .home-register{
+        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+        padding: 50px;
+        border-radius: 10px;
+        position: relaabive;
+    }
+
+    .home-register-right{
+        text-align: center;
+        color: #fff;
+
+        button{
+            border: none;
+            border-radius: 1.5rem;
+            padding: 15px;
+            width: 100%;
+            background: #fafcfc;
+            font-weight: bold;
+            color: #383d41;
+            cursor: pointer;
+        }
+
+        p{
+            font-weight: lighter;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+
+    .home-register-left{
+        background: #fafcfc;
+        border-top-right-radius: 10% 50%;
+        border-bottom-right-radius: 10% 50%;
+
+        .benefits-list{
+            list-style:  square;
+        }
+    }
+}

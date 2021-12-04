@@ -1,0 +1,22 @@
+@import "../theme/variables";
+@import "../style";
+html {
+    &.color-1 {
+        $primary-color: #2b65a4;
+        $secondary-color: #60aee1;
+        $danger-color : #dc3545;
+        $gradient-primary: linear-gradient($secondary-color, $primary-color);
+        $all-focus-outline-color: $primary-color;
+        $code-tag-color: $primary-color;
+        $list-group-active-bg-color: $primary-color;
+        $list-group-active-border-color: $primary-color;
+        $tour-color: $primary-color;
+        $main-header-right-toggle-color: $primary-color;
+        $main-header-right-nav-icon-color: $primary-color;
+        $light-body-bg-color: rgba($primary-color, 0.1);
+        $page-body-bg-color: $light-color;
+        $card-box-shadow: 1px 5px 24px 0 rgba($primary-color, 0.05);
+        $pre-tag-bg-color: rgba($primary-color, 0.05);
+        @import "../style";
+    }
+}

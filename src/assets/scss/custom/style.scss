@@ -1,0 +1,39 @@
+.img {
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+  }
+
+  .my-modal {
+    width: auto;   
+    max-width: 85vw
+} 
+
+.qrCode {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.formImg {
+  object-fit: cover;
+  width: auto;
+  height: 100px;
+}
+
+.crud-file-upload-button{
+  position: relative;
+  overflow: hidden;
+}
+
+.crud-react-s3-uploder{
+  position:absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  
+  .input-color{
+    min-height: 40px
+  }
+}

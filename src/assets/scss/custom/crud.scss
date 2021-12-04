@@ -1,0 +1,115 @@
+@import "./variables.scss";
+
+.crud-input-group-prepend {
+  width: $crud-input-group-prepend-width;
+}
+
+.crud-input-group-prepend span {
+  width: 100%;
+  overflow: hidden;
+}
+
+.crud-react-select {
+  width: calc(100% - #{$crud-input-group-prepend-width});
+
+  .react-select__control {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    font-size: $font-size-base;
+    line-height: $input-line-height;
+    color: $input-color;
+  }
+}
+
+.crud-react-select-center {
+  width: calc(100% - #{$crud-input-group-prepend-width+$crud-input-group-prepend-width});
+  
+  .react-select__control {
+    border-radius: 0 !important;
+    font-size: $font-size-base;
+    line-height: $input-line-height;
+    color: $input-color;
+  }
+}
+
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+.modal-content {
+  margin: 2px auto;
+  z-index: 1100 !important;
+}
+
+.react-select__control--is-focused {
+  border-color: $input-focus-border-color !important;
+  box-shadow: $input-box-shadow, $input-focus-box-shadow !important;
+}
+
+.crud-input-group-prepend-right-danger {
+  color: $danger-color;
+}
+
+.crud-file-upload-button{
+  position: relative;
+  overflow: hidden;
+}
+
+.crud-react-s3-uploder{
+  position:absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  
+  .input-color{
+    min-height: 40px
+  }
+}
+
+.react-datepicker-wrapper{
+  width: calc(100% - #{$crud-input-group-prepend-width});
+}
+
+.crude-date-picker{
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.img {
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+  }
+
+  .my-modal {
+    width: auto;   
+    max-width: 85vw
+} 
+
+.formImg {
+  object-fit: cover;
+  width: auto;
+  height: 100px;
+}
+
+.crud-file-upload-button{
+  position: relative;
+  overflow: hidden;
+}
+
+.crud-react-s3-uploder{
+  position:absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  
+  .input-color{
+    min-height: 40px
+  }
+}
+@media (min-width: 768px) {
+  .crud-add-modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
+}
